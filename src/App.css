@@ -1,18 +1,23 @@
 .App > img{
  
-  width: 100%;
+   width: 100%;
   height: 61rem;
   left: 0px;
-  top: -45px;
+  top: -45px; 
   /* display: none; */
 }
 
-
+.fundo{
+  filter:blur(3px);
+  width: 100%;
+  height: 64rem;
+  left: 0px;
+  top: -45px;
+}
  .text{
-   z-index: 1;
-  color:white;
+  color:white !important;
   margin: 1px 50px ;
- 
+position: relative;
   width: 400px;
   height: 24px;
     /* bottom: 651px;  */
@@ -23,14 +28,14 @@
   line-height: 24px;
 text-transform: uppercase; 
 margin-top:7rem;
-margin-left:47.5rem;
+margin-left:50rem;
 
 }
 
 
  .loki{
   color: white ;
-  margin:-40px 50rem;
+  margin:-40px 53rem;
   font-family: 'B612';
 font-style: normal;
 font-weight: 700;
@@ -45,21 +50,21 @@ margin-top: -10em;
 
 .details img {
 position: absolute;
-  width: 184px;
-  height: 267px;
+  width: 250px;
+  height: 350px;
   left: 350px;
-  top: 390px;
+  top: 410px;
 }
 .details p{
   position: absolute;
   width: 722px;
   height: 96px;
-  left: 650px;
-  top: 380px;
+  left: 700px;
+  top: 400px;
   
   font-family: 'B612';
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 20px;
   line-height: 32px;
   /* or 160% */  
@@ -72,14 +77,15 @@ position: absolute;
   left: 40%;
   top: 80%;
   bottom: 41.67%;
+  display:none;
 }
 .details > :nth-child(4){
-  color: blue;
+  color: white;
   position: absolute;
 width: 75px;
 height: 29px;
-left: 650px;
-top: 490px;
+left: 740px;
+top: 565px;
 
 font-family: 'B612';
 font-style: normal;
@@ -92,9 +98,9 @@ line-height: 29px;
 color: blue;
 position: absolute;
 width: 63px;
-height: 29px;
-left: 1080px;
-top: 490px;
+height: 200px;
+left: 1145px;
+top: 565px;
 
 font-family: 'B612';
 font-style: normal;
@@ -113,8 +119,8 @@ color: #FFFFFF;
 position: absolute;
 width: 184px;
 height: 52px;
-left: 650px;
-top: 570px;
+left: 700px;
+top: 700px;
 border: none;
 background: #0072D2;
 border-radius: 3px;
@@ -132,7 +138,7 @@ text-transform: uppercase;
   width: 115px;
 height: 52px;
 left: 7px;
-top: 570px;
+top: 700px;
 background: #131318;
 border: 1px solid #FFFFFF;
 box-sizing: border-box;
@@ -142,30 +148,30 @@ border-radius: 3px;
   position: absolute;
   height:27px;
   width:31px;
- left: 50%;
- top:80%;
+ left: 47%;
+ top:59%;
   bottom: 12.42%;
   
 }
 
 .star :nth-child(2){
- left:53%
+ left:49%
 }
 
 .star :nth-child(3){
-  left:56% !important;
+  left:51% !important;
   height:27px;
   width:31px;
- left: 50%;
- top:80%;
+
+ top: 59%;
  }
 
  .star :nth-child(4){
-  left:59%
+  left:53%
  }
 
  .star :nth-child(5){
-  left:62%;
+  left:55%;
   top:72,2%;
 filter:grayscale(100%); 
   

@@ -4,10 +4,13 @@ import capa from '../src/assets/capa.png'
 import Star from '../src/assets/star.png'
 import clock from '../src/assets/Vector.png'
 function App() {
- 
+
   return (
+    <>
+         <img src={fundo} className="fundo" alt="Foto Loki"  />
+   
     <div className="App"> 
-        <img src={fundo} alt="Foto Loki" />
+     
         <p className="text loki">loki</p>
         <p className="text">Está disponível agora!</p>   
         <div className="content ">
@@ -16,7 +19,7 @@ function App() {
               <div className="details">
               <img src={capa} alt="Poster do filme Loki" className="capa"></img>
                 <p>Em “Loki” da Marvel Studios, o vilão mercurial Loki (Tom Hiddleston) retoma seu papel como o Deus do Mal em uma nova série que ocorre após os eventos de “Vingadores: Endgame”. </p>
-                <img src={clock} ></img>
+                <img ></img>
                 <p>51 min</p>
 
                 <div className="star ">
@@ -29,13 +32,14 @@ function App() {
                 </div>
               
                 <p>2021</p>
-                <button >Assistir Agora</button>
-                <button className="botao"> Trailer</button>
+                <button  onClick={() => window.open("https://www.disneyplus.com/", "_blank")}>Assistir Agora</button>
+                <button className="botao"  onClick={()=> window.open("https://www.youtube.com/watch?v=xdBWrkcmMwU", "_blank")}> Trailer</button>
               </div>   
               </div>
         </div>
         
     </div>
+    </>
   )
 }
 
